@@ -59,3 +59,33 @@
 	color: rgb(115, 19, 16);
 }
 
+/*cakes section*/
+#cakes {
+	background-color: rgba(235, 104, 100, 0.85);
+	padding-top: 35px;
+}
+
+
+#cakes h4{
+	font-family: 'Comfortaa', cursive;
+	color: rgb(115, 19, 16);
+}
+
+.card {
+	margin-top: 15px;
+	font-family: 'Comfortaa', cursive;
+}
+
+#button-moreCakes {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: rgba(115, 19, 16, 0.7);
+	font-weight: 300;
+}
+
+#additional-cakes {
+	display: none;
+	padding-right: 15px;
+    padding-left: 15px;
+}
+
