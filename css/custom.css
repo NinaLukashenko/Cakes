@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
+/* font-family: 'Comfortaa', cursive; */
+
+.nav-link {
+	color:rgba(255, 255, 255, 0.9) !important;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.nav-link:hover, .nav-link:focus {
+	color: rgba(120, 31, 44, 0.95) !important;
+}
+
+/*hero section*/
+#hero {
+	background-image: url(../img/hero.jpg);
+	background-color:rgb(245, 245, 245);
+	min-height:600px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	text-align: center;
+	padding-top: 70px;
+	color: rgb(124, 42, 40);
+}
+
+#hero h1 {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+}
+
+#hero h2 {
+	font-family: 'Comfortaa', cursive;
+	letter-spacing: 3px;
+}
+
+/*features section*/
+#features {
+	padding-top: 100px;
+	padding-bottom: 75px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+}
+
+.feature-item > i.fas {
+	padding-bottom: 35px;
+	color: rgb(235, 104, 100);
+	font-size: 55px;
+}
+
+#features h3 {
+	font-family: 'Comfortaa', cursive;
+	color: rgb(115, 19, 16);
+}
+
+.feature-item--decoration > i {
+	color: rgb(115, 19, 16);
+}
+
