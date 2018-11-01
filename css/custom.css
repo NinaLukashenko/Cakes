@@ -23,16 +23,18 @@
 	background-size: contain;
 	text-align: center;
 	padding-top: 70px;
-	color: rgb(124, 42, 40);
+	color: ;
 }
 
 #hero h1 {
 	font-family: 'Comfortaa', cursive;
+	color: rgba(120, 31, 44, 0.95);
 	font-weight: 700;
 }
 
 #hero h2 {
 	font-family: 'Comfortaa', cursive;
+	color: rgba(120, 31, 44, 0.95);
 	letter-spacing: 3px;
 }
 
@@ -59,33 +61,80 @@
 	color: rgb(115, 19, 16);
 }
 
-/*cakes section*/
+#chevron {
+	position: relative;
+	margin-top: 35px;
+	height: 45px;
+}
+
+#chevron:before {
+	content: "";
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 50%;
+	background-color: rgb(235, 104, 100);
+	transform: skew(0, 7deg);
+}
+
+#chevron:after {
+	content: "";
+	position: absolute;
+	top:0;
+	right:0;
+	height: 100%;
+	width: 50%;
+	background-color: rgb(235, 104, 100);
+	transform: skew(0, -7deg);
+}
+
+/*cakes & sweet sections*/
 #cakes {
-	background-color: rgba(235, 104, 100, 0.85);
+	/*background-color: rgba(235, 104, 100, 0.85);*/
 	padding-top: 35px;
 }
 
+#sweets {
+	/*background-color: rgba(235, 104, 100, 0.85);*/
+	padding-top: 55px;
+}
 
-#cakes h4{
+
+#cakes h4, #sweets h4{
 	font-family: 'Comfortaa', cursive;
 	color: rgb(115, 19, 16);
 }
 
-.card {
-	margin-top: 15px;
-	font-family: 'Comfortaa', cursive;
-}
-
-#button-moreCakes {
+#button-showMoreCakes, #button-showMoreSweets {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	color: rgba(115, 19, 16, 0.7);
 	font-weight: 300;
 }
 
-#additional-cakes {
+#additional-cakes, #additional-sweets {
 	display: none;
 	padding-right: 15px;
     padding-left: 15px;
 }
+
+/*styles for cards; sections cakes & sweets*/
+.card {
+	margin-top: 15px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.card-body {
+	padding: 4px;
+}
+
+.card-footer {
+	padding: 7px;
+}
+
+.card-footer > p {
+	margin-bottom: 0;
+}
+
 
