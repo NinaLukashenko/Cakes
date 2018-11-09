@@ -23,7 +23,6 @@
 	background-size: contain;
 	text-align: center;
 	padding-top: 70px;
-	color: ;
 }
 
 #hero h1 {
@@ -61,6 +60,7 @@
 	color: rgb(115, 19, 16);
 }
 
+/*chevron*/
 #chevron {
 	position: relative;
 	margin-top: 35px;
@@ -88,6 +88,36 @@
 	background-color: rgb(235, 104, 100);
 	transform: skew(0, -7deg);
 }
+
+/*chevron-end*/
+#chevron-end {
+	position: relative;
+	margin-top: 75px;
+	height: 45px;
+}
+
+#chevron-end:before {
+	content: "";
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	background-color: rgb(235, 104, 100);
+	transform: skew(0, -7deg);
+}
+
+#chevron-end:after {
+	content: "";
+	position: absolute;
+	top:0;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	background-color: rgb(235, 104, 100);
+	transform: skew(0, 7deg);
+}
+
 
 /*cakes & sweet sections*/
 #cakes {
@@ -119,7 +149,7 @@
     padding-left: 15px;
 }
 
-/*styles for cards; sections cakes & sweets*/
+/*styles for cards in sections cakes & sweets*/
 .card {
 	margin-top: 15px;
 	font-family: 'Comfortaa', cursive;
@@ -138,3 +168,68 @@
 }
 
 
+/*reviews section*/
+#reviews {
+	padding-top: 50px;
+	font-family: 'Comfortaa', cursive;
+}
+
+#reviews h4 {
+	font-family: 'Comfortaa', cursive;
+	color: rgb(115, 19, 16);
+	padding-bottom: 20px;
+}
+
+#reviews blockquote {
+	font-size: 1rem;
+}
+
+/*postReviews section*/
+#postReviews {
+	background-image:url("../img/birthday-party.jpg");
+	min-height:550px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	text-align: center;
+	padding-top: 500px;
+	color: rgb(255, 255, 255);
+	font-size: 1.5rem;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+}
+
+
+/*price*/
+#price {
+	padding-top: 50px;
+	font-family: 'Comfortaa', cursive;
+	text-align:center;
+}
+
+#price h4 {
+	font-family: 'Comfortaa', cursive;
+	color: rgb(115, 19, 16);
+	padding-bottom: 20px;
+}
+
+#price h5 {
+	font-family: 'Comfortaa', cursive;
+	background-color: rgb(235, 104, 100);
+	color: rgb(255, 255, 225);
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#price h5 > span {
+	border-bottom: 2px solid rgb(235, 104, 100);
+	margin-bottom: 45px;
+	font-size: 0.8rem;
+	color: rgb(34, 34, 34);
+
+}
+
+p.sale {
+	color: rgb(115, 19, 16);
+}
