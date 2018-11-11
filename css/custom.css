@@ -64,7 +64,7 @@
 #chevron {
 	position: relative;
 	margin-top: 35px;
-	height: 45px;
+	height: 65px;
 }
 
 #chevron:before {
@@ -75,7 +75,7 @@
 	height: 100%;
 	width: 50%;
 	background-color: rgb(235, 104, 100);
-	transform: skew(0, 7deg);
+	transform: skew(0, 3deg);
 }
 
 #chevron:after {
@@ -86,14 +86,14 @@
 	height: 100%;
 	width: 50%;
 	background-color: rgb(235, 104, 100);
-	transform: skew(0, -7deg);
+	transform: skew(0, -3deg);
 }
 
 /*chevron-end*/
 #chevron-end {
 	position: relative;
-	margin-top: 75px;
-	height: 45px;
+	margin-top: 35px;
+	height: 65px;
 }
 
 #chevron-end:before {
@@ -104,7 +104,7 @@
 	height: 100%;
 	width: 50%;
 	background-color: rgb(235, 104, 100);
-	transform: skew(0, -7deg);
+	transform: skew(0, -3deg);
 }
 
 #chevron-end:after {
@@ -115,7 +115,7 @@
 	height: 100%;
 	width: 50%;
 	background-color: rgb(235, 104, 100);
-	transform: skew(0, 7deg);
+	transform: skew(0, 3deg);
 }
 
 
@@ -216,8 +216,7 @@
 
 #price h5 {
 	font-family: 'Comfortaa', cursive;
-	background-color: rgb(235, 104, 100);
-	color: rgb(255, 255, 225);
+	color: rgb(235, 104, 100);
 	padding: 10px;
 	border-radius: 3px;
 }
@@ -234,11 +233,15 @@ p.sale {
 	padding-top: 35px;
 }
 
+#price p.sale > span {
+	border-bottom: 2px solid rgb(235, 104, 100);
+}
+
 /*parallax*/
 #before-parallax {
 	position: relative;
 	margin-top: 75px;
-	height: 75px;
+	height: 65px;
 }
 
 #before-parallax:before {
@@ -248,9 +251,9 @@ p.sale {
 	left: 0;
 	height: 100%;
 	width: 50%;
-	background-color: rgb(235, 104, 100);
+	background-color: rgb(230, 128, 133);
 	transform: skew(0, -3deg);
-	z-index:4;
+	z-index:10;
 }
 
 #before-parallax:after {
@@ -260,15 +263,15 @@ p.sale {
 	right: 0;
 	height: 100%;
 	width: 50%;
-	background-color: rgb(235, 104, 100);
+	background-color: rgb(230, 128, 133);
 	transform: skew(0, 3deg);
-	z-index:4;
+	z-index:10;
 }
 
 .parallax {
     /* The image used */
     background-image: url('../img/birthday-party.jpg');
-    top:-20px;
+    top:-30px;
 
     /* Set a specific height */
     min-height: 650px; 
@@ -295,8 +298,8 @@ p.sale {
 
 #after-parallax {
 	position: relative;
-	height: 75px;
-	margin-top: -75px;
+	height: 65px;
+	margin-top: -65px;
 }
 
 #after-parallax:before {
@@ -308,7 +311,7 @@ p.sale {
 	width: 50%;
 	background-color: rgb(255, 255, 255);
 	transform: skew(0, 3deg);
-	z-index:4;
+	z-index:10;
 }
 
 #after-parallax:after {
@@ -320,5 +323,5 @@ p.sale {
 	width: 50%;
 	background-color: rgb(255, 255, 255);
 	transform: skew(0, -3deg);
-	z-index:4;
+	z-index:10;
 }
