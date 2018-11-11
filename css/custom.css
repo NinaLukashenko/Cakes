@@ -227,9 +227,98 @@
 	margin-bottom: 45px;
 	font-size: 0.8rem;
 	color: rgb(34, 34, 34);
-
 }
 
 p.sale {
 	color: rgb(115, 19, 16);
+	padding-top: 35px;
+}
+
+/*parallax*/
+#before-parallax {
+	position: relative;
+	margin-top: 75px;
+	height: 75px;
+}
+
+#before-parallax:before {
+	content: "";
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	background-color: rgb(235, 104, 100);
+	transform: skew(0, -3deg);
+	z-index:4;
+}
+
+#before-parallax:after {
+	content: "";
+	position: absolute;
+	top:0;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	background-color: rgb(235, 104, 100);
+	transform: skew(0, 3deg);
+	z-index:4;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/birthday-party.jpg');
+    top:-20px;
+
+    /* Set a specific height */
+    min-height: 650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax > p {
+	margin-top:100px;
+	font-size: 2.5rem;
+
+}
+
+.parallax > p > span {
+	color: rgb(120, 31, 44);
+	background-color: rgba(255, 255, 225, 0.5);
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+}
+
+#after-parallax {
+	position: relative;
+	height: 75px;
+	margin-top: -75px;
+}
+
+#after-parallax:before {
+	content: "";
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	background-color: rgb(255, 255, 255);
+	transform: skew(0, 3deg);
+	z-index:4;
+}
+
+#after-parallax:after {
+	content: "";
+	position: absolute;
+	top:0;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	background-color: rgb(255, 255, 255);
+	transform: skew(0, -3deg);
+	z-index:4;
 }
