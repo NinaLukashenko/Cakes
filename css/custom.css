@@ -121,12 +121,10 @@
 
 /*cakes & sweet sections*/
 #cakes {
-	/*background-color: rgba(235, 104, 100, 0.85);*/
 	padding-top: 35px;
 }
 
 #sweets {
-	/*background-color: rgba(235, 104, 100, 0.85);*/
 	padding-top: 55px;
 }
 
@@ -352,6 +350,29 @@ p.sale {
 /*contacts*/ 
 #contacts {
 	margin-top: 50px;
+	padding-top: 50px;
 	font-family: 'Comfortaa', cursive;
 	text-align:center;
+	background-color: rgb(235, 104, 100);
+}
+
+#contacts h4 {
+	font-family: 'Comfortaa', cursive;
+	color: rgb(255, 255, 255);
+	padding-bottom: 5px;
+}
+
+#contacts .fab, #contacts .fas {
+	color: rgb(34, 34, 34);
+	padding: 8px;
+}
+
+#contacts .fab:hover, #contacts .fab:active  {
+	color: rgb(115, 19, 16);
+}
+
+#copyright-block {
+	background-color: rgb(255, 85, 85);
+	padding: 10px;
+	margin-top: 20px;
 }
