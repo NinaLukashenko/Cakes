@@ -222,7 +222,6 @@
 }
 
 #price h5 > span {
-	border-bottom: 2px solid rgb(235, 104, 100);
 	margin-bottom: 45px;
 	font-size: 0.8rem;
 	color: rgb(34, 34, 34);
@@ -234,7 +233,7 @@ p.sale {
 }
 
 #price p.sale > span {
-	border-bottom: 2px solid rgb(235, 104, 100);
+	color: rgb(235, 104, 100);
 }
 
 /*parallax*/
@@ -324,4 +323,35 @@ p.sale {
 	background-color: rgb(255, 255, 255);
 	transform: skew(0, -3deg);
 	z-index:10;
+}
+
+/*delivery*/ 
+
+#delivery {
+	padding-top: 50px;
+	font-family: 'Comfortaa', cursive;
+	text-align:center;
+}
+
+#delivery h4 {
+	font-family: 'Comfortaa', cursive;
+	color: rgb(115, 19, 16);
+	padding-bottom: 20px;
+}
+
+#way a {
+	margin-bottom: 30px;
+}
+
+.btn-outline-secondary {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 300;
+	color: rgb(34, 34, 34);
+}
+
+/*contacts*/ 
+#contacts {
+	margin-top: 50px;
+	font-family: 'Comfortaa', cursive;
+	text-align:center;
 }
